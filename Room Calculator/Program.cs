@@ -28,7 +28,7 @@ namespace Room_Calculator
                 Console.WriteLine($"The amount of cans of paint needed it {paint}");
                 Console.WriteLine($"The amount of carpet needed it {carpet}");
 
-                double volume = ((area / 5) * length * width);
+                double volume = ((area / 2) * length * width);
 
                 Console.WriteLine($"The volume of the room is {volume}");
 
